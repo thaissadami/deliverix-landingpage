@@ -1,0 +1,68 @@
+.section-cta{
+	background: url(../../public/images/bg1.png) top no-repeat;
+	background-size: cover;                    
+    background-repeat: no-repeat;
+    background-position: center center; 
+}
+
+form {
+	text-align: center;
+	margin: 0 auto;
+}
+
+form label{
+	display: block;
+	font-size: 18px;
+	color: $color-dark-gray;
+	margin: 0 0 10px;
+}
+
+form input{
+	display: block;
+	width: 100%;
+	margin: 0 0 20px;
+	@include style-input;
+}
+
+.send {
+	background-color: $color-secundary;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: 0;
+	transition: 1s all;
+	cursor: pointer;
+
+	@extend %border-radius;
+	// @extend %shadow;
+
+	&:hover{
+	background-color: darken(#F9B232,10%);
+	// transform: scale(1.05) rotate(5deg);
+	}	
+}
+
+.section-cta-form {
+	padding: 4rem 3rem 2rem 3rem;
+	margin: 20px;
+	padding: 40px;
+	background-color: #fff;
+	@extend %border-radius;
+	@extend %shadow;
+	line-height: 1.5;
+	// @include single-box-shadow;
+}
+
+.title-cta{
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.subtitle-cta{
+	text-align: center;
+	color: $color-primary;
+	font-size: 16px;
+	opacity: 80%;
+	margin: 2rem 0;
+}

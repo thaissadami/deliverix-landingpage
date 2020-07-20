@@ -1,0 +1,79 @@
+
+.why{
+	scroll-behavior: smooth;
+	overflow-y: scroll;
+}
+
+body{
+	margin: 0;
+	font-family: "Lato";
+}
+
+::placeholder{
+
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 60px;
+	color: $color-secundary;
+}
+
+h3 {
+	font-size: 18px;
+	color: #fff;
+}
+
+.subtitle {
+	list-style-type: none;
+	list-style-image: none;
+	font-size: 35px;
+	font-weight: bold;
+	color: $color-primary;
+	margin-bottom: 7%;
+}
+
+.uppercase{
+	text-transform: uppercase;
+}
+
+.position-absolute{
+	position: absolute;
+}
+
+.main {
+	display: inline-block;
+	// background: url(../images/bg1.png) top no-repeat;
+	background-size: 100%;
+	width: 100%;
+	position: relative;
+}
+
+.texts {
+	padding: 20px;
+}
+
+.stick-left {
+	position: absolute;
+	left: 0;
+}
+
+.margin-top{
+	margin-top: 10%;
+}
+
+.margin-bottom{
+    margin-bottom: 1rem !important;
+}
+
+.icon {
+	padding-left: 0;
+	padding-top: 0;
+	padding-right: 4%;
+  	padding-bottom: 2%;
+}
+
+.main-footer{
+	box-shadow: 0 10px 0px 0px rgb(42, 55, 73);
+	margin-bottom: 10px;
+}

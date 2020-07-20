@@ -1,0 +1,16 @@
+.bg-nav {
+	background: $color-primary;
+}
+
+.navbar-nav{
+	a {
+		font-size: 16px;
+		color: white;
+		text-decoration: none;
+
+		&:hover {
+		font-size: 16px;
+		color: $color-secundary;
+		}
+	}
+}

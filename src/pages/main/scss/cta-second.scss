@@ -1,0 +1,36 @@
+.cta-second{
+	padding: 5%;
+}
+
+.send-second {
+	background-color: $color-primary;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: 0;
+	transition: 1s all;
+	cursor: pointer;
+
+	@extend %border-radius;
+	// @extend %shadow;
+
+	&:hover{
+	background-color: darken(#F9B232,10%);
+	// transform: scale(1.05) rotate(5deg);
+	}	
+}
+
+.title-cta-second{
+	color: $color-primary;
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.subtitle-cta-second{
+	text-align: center;
+	color: 979797;
+	font-size: 18px;
+	opacity: 80%;
+	margin: 2rem 0;
+}
